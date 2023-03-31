@@ -1,19 +1,28 @@
 {
   "name": "blurts-https-stats",
+  "description": "'dead' HIBP domains",
   "version": "1.0.0",
-  "description": "",
+  "author": "Peter deHaan <peter@deseloper.com>",
+  "bugs": {
+    "url": "https://github.com/pdehaan/blurts-https-stats/issues"
+  },
+  "dependencies": {
+    "link-check": "^5.2.0",
+    "lodash.groupby": "^4.6.0"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/pdehaan/blurts-https-stats#readme",
+  "keywords": [],
+  "license": "MPL-2.0",
   "main": "index.js",
-  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pdehaan/blurts-https-stats.git"
+  },
   "scripts": {
     "link-checker": "node checker",
     "link-reporter": "node report > README.md",
     "start": "time node index"
   },
-  "keywords": [],
-  "author": "Peter deHaan <peter@deseloper.com>",
-  "license": "MPL-2.0",
-  "dependencies": {
-    "link-check": "^5.2.0",
-    "lodash.groupby": "^4.6.0"
-  }
+  "type": "module"
 }
